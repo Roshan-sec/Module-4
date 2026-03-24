@@ -13,7 +13,21 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 Add code here
+~~~
+def returnSum(myDict):
+    final=0
+    for i in myDict.values():
+        final+=i
+    return final
+#driver functions
 
+myDict = {'a': 100, 'b': 200, 'c': 300}
+print("Sum :",returnSum(myDict))
+~~~
 ## Output
+<img width="395" height="167" alt="image" src="https://github.com/user-attachments/assets/34c8fc0a-a5b0-482e-933a-67ed700f11e2" />
+
 
 ## Result
+The program successfully counts and displays the number of lines in story.txt that do not start with the alphabet 'T'.
+
